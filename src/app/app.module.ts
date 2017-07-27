@@ -12,12 +12,15 @@ import { DocumentsComponent } from './documents/documents.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    DocumentsComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+  AppComponent
+]
 })
 export class AppModule { }
